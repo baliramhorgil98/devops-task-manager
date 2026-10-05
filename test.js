@@ -3,7 +3,8 @@ const fs = require('fs');
 const tests = [
     'app.js',
     'package.json',
-    'public/index.html'
+    'public/index.html',
+    'failure-demo.txt'
 ];
 
 console.log('Starting automated tests...');
