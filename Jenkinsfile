@@ -21,5 +21,11 @@ pipeline {
                 bat 'npm test'
             }
         }
+        
+        stage('Docker Build') {
+        steps {
+            bat 'docker build -t student-task-manager:cie .'
+            }
+        }
     }
 }
