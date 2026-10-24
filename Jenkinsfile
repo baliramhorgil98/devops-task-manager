@@ -21,5 +21,13 @@ pipeline {
                 bat 'npm test'
             }
         }
+        
+        
+stage('Docker Build') {
+    steps {
+        bat '"C:\\Users\\mahad\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin\\docker.exe" build -t student-task-manager:cie .'
+    }
+}
+
     }
 }
