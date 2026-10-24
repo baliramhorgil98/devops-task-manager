@@ -33,7 +33,7 @@ app.get('/metrics', async (req, res) => {
 
 // Test route — retain your existing task routes too
 app.get('/', (req, res) => {
-  res.send('Student Task Manager is running!');
+  res.send('Student Task Manager is runnin');
 });
 
 // Start the server
